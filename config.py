@@ -4,19 +4,19 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6005513049:AAGlaL-5jJ0wYd1ogfBpEJIVIh1M8tbMUSc")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 5072447))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "0868ddd7eea45fada738581d03fbfe4c")
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://bot:bot@cluster0.eqvky.mongodb.net/?retryWrites=true&w=majority")
 
 
     # Your database name from mongoDB
@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "6218824589").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
@@ -35,7 +35,7 @@ class Config(object):
 
     # Go to https://dashboard.heroku.com/account, scroll down and press Reveal API
     # To check dyno status
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "3925d0e2-f409-4084-8cb6-fe8524f07365")
 
 
     # OPTIONAL - To set alternate BOT COMMANDS
